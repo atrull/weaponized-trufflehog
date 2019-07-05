@@ -5,6 +5,8 @@ Why does it exist ?
 
 Users occasionaly accidentaly make public repos on their own github users which contain private secrets belonging to another org, by accident, of course.
 
+Why do I care ? Maybe you're operationaly responsible for said org and you want to know if something has been made public, but gitguardian etc isn't going to mail you because it doesn't know whose git org the secret belongs to, it only knows who your user is and only mails *them* which is utterly useless.
+
 Tools that didn't quite do what was needed:
 
 trufflehog is nice but doesn't do grand-scale stuff (it aims at a specific repo), so we need to wrap it in something to grab more repos.
