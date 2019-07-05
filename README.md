@@ -13,4 +13,4 @@ gitrob is nice but but it doesn't search deeply (sticks to filenames) - it does 
 
 git secrets is nice but really aimed at git process hooks, which are unenforcable at an org level.
 
-gitleaks looks nice but may not be as weaponized as desired (public repos of org members).
+gitleaks looks nice but may not be as weaponized as desired (public repos of org members - it only scans orgs own public repos) - but it sure is fast!.
