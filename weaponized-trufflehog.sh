@@ -28,7 +28,9 @@ TOTAL_REPO_LIST=""
 # some silly defaults for IGNORE_REPO_REGEX
 IGNORE_REPO_REGEX="${IGNORE_REPO_REGEX:(foocakederpmax|foocakederpmin)}"
 
-# github API has pagination - 100 per page, the below default lets us grab 300 results per search. YMMV.
+# github API has pagination - 100 per page, the below
+# default lets us grab 100 results per search. YMMV. Bump
+# MAXPAGINATION to multiply.
 MAXPAGINATION="1"
 MAXPERPAGE="100"
 
